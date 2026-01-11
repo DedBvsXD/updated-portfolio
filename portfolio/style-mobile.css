@@ -1,0 +1,85 @@
+/* Mobile Responsive Media Queries */
+
+@media (max-width: 768px) {
+    .section {
+        padding: 60px 20px;
+    }
+
+    .section h2 {
+        font-size: 1.8em;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 15px;
+    }
+
+    .project-card {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .contact-section {
+        flex-direction: column;
+        padding: 60px 20px;
+        align-items: stretch;
+        gap: 30px;
+    }
+
+    .contact-left {
+        width: 100%;
+    }
+
+    .contact-left h2 {
+        font-size: 28px;
+    }
+
+    .contact-right {
+        width: 100%;
+    }
+
+    .social-icons {
+        gap: 20px;
+    }
+
+    .social-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .social-icon svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .social-links {
+        padding: 60px 20px;
+    }
+
+    .social-links h3 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 1.5em;
+    }
+
+    .hero p {
+        font-size: 0.9em;
+    }
+
+    .section h2 {
+        font-size: 1.4em;
+    }
+
+    .contact-left h2 {
+        font-size: 1.5em;
+    }
+
+    #contact-form input,
+    #contact-form textarea {
+        font-size: 16px;
+    }
+}
